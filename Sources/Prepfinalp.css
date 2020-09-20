@@ -1,0 +1,145 @@
+.fa-instagram-square{
+    color: blue;
+}
+body{background-color: white;}
+.container{
+    background-color: aliceblue;
+}
+#median{
+	margin-left: 50%;
+	color: black;
+	display: inline;
+
+}
+#navigator{
+   
+}
+nav{
+	max-width:960px;
+	margin-left: 70%;
+	padding:0;
+	margin-right: 0%;
+	font-size:12px;
+	background-color:darkcyan;
+	box-sizing: border-box;
+	border:0 4px 0 0 solid black;
+
+
+}
+nav> ul{
+	text-align: right;
+}
+nav>ul>li{
+	display: inline-block;
+}
+nav  ul  li  a{
+	padding:18px;
+	margin-right:0;
+	text-transform: uppercase;
+	text-decoration: none;
+	display:block;
+	color:black;
+}
+
+nav > ul > li > a:hover{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1),
+	inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: black;
+    color: white;
+}
+.Intro{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width:100%;
+}
+#item{
+	width:30%;
+	margin-bottom: 20px;height:2%;
+}
+
+#description > h3{
+	text-align:center;
+	font-size:40px;
+}
+.servicesList{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow:wrap;
+	padding: 50px;
+}
+.service{
+	width:15%;
+	border:1px solid white;
+	margin-bottom:50px;
+	transition:0.3s;
+
+}
+.stitle{
+	text-align:center;
+	padding:50px 10px;
+	color:black;
+	font-size: 20px;
+}
+.service:hover{
+	transform:scale(1.05);
+	box-shadow:0 0 40px -10px rgba(0,0,0,0.24);
+}
+
+.more{
+
+	width:100%;
+	display:flex;
+	background: white;
+	padding: 50px;
+	box-sizing:border-box;
+	flex-direction: row;
+}
+.specifics{
+
+	flex:1;
+	background-color:white;
+	padding:30px;
+	font-size:12px;
+	font-family:'Roboto',sans-serif; 
+
+		}
+.details{
+	flex:1;
+	padding:30px;
+	font-size:12px;
+
+}
+#contact >p{
+	font-size: 20px;
+
+}
+#contact a{
+
+}
+#contact a:hover{
+	transform:scale(1.05);
+	text-decoration:none;
+	color:darkblue;
+
+}
+
+/*responsive queries     */
+
+@media screen and (max-width:1000px){
+	.description{
+		width:100%;
+	}
+	.service{
+		width:50%;
+		
+	}
+	.more{
+		flex-direction: column;
+	}
+	#contact{
+		width:100%;
+	}
+
+}
