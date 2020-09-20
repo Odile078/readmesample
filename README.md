@@ -1,8 +1,10 @@
-#Example site
-This is a sample of a github site.
-*This is meant to be an example
-* Markdown is really feDistantLight Presentable
-#Example site
-This is a sample of a github site.
-*This is meant to be an example
-* Markdown is really feDistantLight Presentable
+#Odile Uwimpuhwe Portfolio
+This is my Portfoliobvjfbgjfnjbnfjvnfjfgnvjfnb.
+Hellovfnb you all.
+***
+## Author
+-Odile Uwimpuhwe
+***
+## License & Copyright
+@ Odile Uwimpuhwe
+Licensed under the [MIT License](LICENSE).
